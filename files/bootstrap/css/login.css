@@ -1,0 +1,89 @@
+.view {
+ 	height: 80%;
+}
+
+.container-fluid{
+	position: absolute;
+}
+
+.board{
+			position:relative;
+			width: 90%;
+			max-height:65%;
+			transform: translate(0%,2%);
+			border-style: solid;  
+			border-width: 2px;
+			border-color: grey;
+			border-radius: 50px;
+			overflow: hidden ;	
+		}
+
+
+#signindiv{
+			
+			position:relative;
+			padding-top: 5%
+			max-height:100%;
+			width: 100%;
+			transform: translate(0%,30%);
+			display: flex;
+			flex-flow: column;
+			align-items: center;
+			transition: transform 1s;
+			
+	
+		}
+
+#userimg{
+
+			width:120px; 
+			height: 120px; 
+			border-radius: 100%;
+			transform:translate(0%,-35%);
+		}
+
+#signupdiv{
+			
+			position: relative;
+			width: 100%; 
+			transform: translate(100%,-70%);
+			display: flex;
+			flex-flow: column;
+			align-items: center;
+			transition: transform 1.0s;	
+			font-size: 10px;
+			transition-timing-function: cubic-bezier(0,.8,1.25,.48);
+				 		 	
+		}
+
+#signupdiv{
+	max-height: 95%;
+	resize: auto;
+}	
+.signup{
+		margin-top:60px;
+		font-size: 10px;
+	}		
+
+.signinboard{
+			transform: translate(0%,20%);
+			background-color: #EBEBEB;
+			width: 90%;
+			max-width:90%;
+			border-radius: 10px;
+			padding: 30px 25px 15px 25px;
+		}
+
+#description{
+	/*transform: translate(0%, 200%);*/
+	margin-top:50%;
+	text-align: left;
+}
+
+#signIn:hover, #signUp:hover {
+	color : #28a74599;
+}
+
+.jumbotron{
+	transform: translate(0, 5%);
+}

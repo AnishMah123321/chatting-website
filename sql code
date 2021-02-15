@@ -1,0 +1,3 @@
+CREATE TABLE `chat`.`user` ( `userid` INT(10) NOT NULL , `Username` VARCHAR(20) NOT NULL , `FNAME` VARCHAR(20) NOT NULL , `LNAME` VARCHAR(20) NOT NULL , `Address` VARCHAR(20) NOT NULL , `Phone.No` INT(15) NOT NULL , `EmailID` VARCHAR(50) NOT NULL , UNIQUE (`Username`)) ENGINE = InnoDB;
+CREATE TABLE `chat`.`Friend List` ( `UserID1` INT(10) NOT NULL , `UserID2` INT(10) NOT NULL ) ENGINE = InnoDB;
+CREATE TABLE `chat`.`messages` ( `MessageID` INT(10) NOT NULL , `From` INT(10) NOT NULL , `To` INT(10) NOT NULL , `Message Text` TEXT NOT NULL , PRIMARY KEY (`MessageID`)) ENGINE = InnoDB;
